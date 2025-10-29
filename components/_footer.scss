@@ -1,0 +1,104 @@
+.footer-section {
+  position: relative;
+  background-color: var(--color-primary-dark);
+  background-image: url(../imiges/footer-baground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+.footer-section::before,
+  .footer-section::after {
+    position: absolute;
+    background-repeat: no-repeat;
+    content: "";
+    bottom: 0;
+  }
+
+  &::before {
+    width: 180px;
+    height: 120px;
+    left: 0;
+    background-image: url(../imiges/decor-bread-smail.png);
+  }
+
+  &__::after {
+    width: 380px;
+    height: 190px;
+    background-image: url(../imiges/decor-bread-bige.png);
+    right: 0;
+  }
+
+
+&__container {
+    display: flex;
+    padding: 32px 0;
+    gap: 20px;
+  }
+
+  &__nav,
+  &__address {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+
+  }
+
+  &__logo,
+  &__menu {
+    flex-grow: 1;
+
+  }
+
+&__link {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--color-primary-light);
+}
+}
+
+.adress-section{
+&__list,
+&__info {
+    flex-grow: 1;
+
+
+&__privacy {
+    font-weight: 300;
+    font-size: 16px;
+    color: var(--color-primary-light);
+  }
+
+&__protection {
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--color-primary-light);
+    }
+
+
+
+
+    }
+
+
+
+
+.adress-link:hover {
+  color: var(--color-brand);
+}
+
+
+
+.adress-icons:hover {
+  fill: var(--color-brand);
+}
+
+.contakt-mapa {
+  width: 100%;
+  max-width: 603px;
+  max-height: 595px;
+}
+
+}
+.adress-section__icons {
+  fill: var(--color-secondary-dark);
+}

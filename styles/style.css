@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* Початкові значення CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* My tesk job */
+html {
+  background: rgb(255, 255, 255);
+}
+
+body {
+  width: 1920px;
+
+  height: auto;
+  background: rgb(239, 239, 242);
+  margin: 0px auto;
+  /* position: relative; */
+}
+
+.conteyner{
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 1440px;
+      background: rgb(203, 203, 250);
+}
+
+/* Header  */
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 96px;
+  /* position: fixed; */
+  width: 1440px;
+  height: 46px;
+  color: rgba(25, 25, 28, 1);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 348px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header nav ul,
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 96px;
+}
+
+.navigation .nav_btn {
+  width: 153px;
+  height: 46px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: rgba(239, 239, 242, 1);
+  background-color: rgb(18, 18, 18);
+}
+
+/* main */
+main {
+  padding-top: 48px;
+  font-size: 18px;
+  color: rgba(25, 25, 28);
+}
+
+.offer_hero {
+  width: 648px;
+  height: 636px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: start;
+  flex-direction: column;
+}
+
+.offer__months {
+  font-weight: 700;
+  color: rgba(25, 25, 28);
+  border-bottom: 4px solid rgba(80, 77, 238);
+  margin-bottom: 30px;
+}
+
+.offer__title {
+  font-weight: 700;
+  font-size: 58px;
+  padding-bottom: 40px;
+}
+
+.offer__description {
+  font-weight: 400;
+}
+
+/* Footer*/
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 0;
+  color: rgba(251, 251, 252, 1);
+  background-color: rgb(18, 18, 18);
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 176px;
+}
+
+.sitemap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+.sitemap__address{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(239, 239, 242);
+}
+
+.sitemap_social-networks {
+  display: inline-block;
+  align-items: flex-start;
+}
+
+.sitemap_social-networks a {
+  padding-right: 20px;
+}
+
+.sitemap__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(251, 251, 252, 1);
+}
+
+.sitemap__list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(239, 239, 242);
+}
+
+.footer_policy {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  color: rgba(109, 109, 119);
+}

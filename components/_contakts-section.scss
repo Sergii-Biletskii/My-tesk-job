@@ -1,0 +1,33 @@
+.contact-section {
+      padding-bottom: 96px;
+          
+
+&__container {
+    display: flex;
+    gap: 32px;  
+}          
+
+&__title {
+  padding-bottom: 16px;
+}
+
+&__text {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-brand-dark);
+}
+
+&__form {
+  max-width: 618px;
+}
+
+&__maps {
+  max-width: 590px;
+  width: 590px;
+  max-height: 648px;
+  height: 648px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 16px;
+}
+}

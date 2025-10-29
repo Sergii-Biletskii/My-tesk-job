@@ -1,0 +1,10 @@
+/* візуально схований тег */
+.visually-hidden {
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  left: -10000px;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
